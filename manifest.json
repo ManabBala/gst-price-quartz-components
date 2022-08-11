@@ -1,0 +1,14 @@
+{
+	"name": "GST Price Q.C.",
+	"version": "0.01",
+	"description": "-",
+	"content_scripts": [
+		{
+			"matches": ["https://quartzcomponents.com/*"],
+			"js": ["contentScript.js"],
+			"run_at": "document_end"
+		}
+	],
+	"host_permissions": ["https://quartzcomponents.com/*"],
+	"manifest_version": 3
+}
